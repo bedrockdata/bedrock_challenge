@@ -13,6 +13,8 @@ An API written in ExpressJS
 
 Creates an account containing an email and password.  Accounts are stored on the local filesystem with one file per account.
 
+Note: An example file is already uploaded to [accounts/parris@bedrockdata.com](accounts/parris@bedrockdata.com)
+
 ```sh
 POST /account
 ```
