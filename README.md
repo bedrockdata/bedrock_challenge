@@ -2,6 +2,10 @@
 
 An API written in ExpressJS
 
+## Challenge Description
+
+Build an API server that provides the two endpoints described below using the software requirements also described below.
+
 ## Software Requirements
 
 * [Node 8](https://nodejs.org/en/)
