@@ -1,0 +1,19 @@
+{
+  "name": "bedrock_challenge",
+  "version": "1.0.0",
+  "description": "Nick's submission for the bedrock challenge",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bedrockdata/bedrock_challenge.git"
+  },
+  "author": "Nick DeJesus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bedrockdata/bedrock_challenge/issues"
+  },
+  "homepage": "https://github.com/bedrockdata/bedrock_challenge#readme"
+}
