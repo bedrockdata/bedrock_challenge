@@ -18,18 +18,16 @@ app.post('/account', (req, res) => {
     })
 }) 
 
-app.get('/account', (req, res) => {
-    const reqEmail = req.headers.email;;
-    const reqPassword = req.headers.password;
+app.get('/account/', (req, res) => {
 
-    if (reqPassword === parrisAccount.password) {
+    if (req.query.password === parrisAccount.password) {
         res.send({
             "success": "true",
             "message": "Authenticated."
         })
     }
 
-    if (reqPassword !== parrisAccount.password) {
+    if (req.query.password !== parrisAccount.password) {
         res.send({
             "success": "false",
             "message": "Could not authenticate."
